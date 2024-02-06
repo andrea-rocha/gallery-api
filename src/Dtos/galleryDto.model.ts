@@ -16,7 +16,7 @@ export class ImageDto {
 export class QueryDto {
     @IsNotEmpty({ message: 'Name must not be empty' })
     @IsString({ message: 'Name must be a string' })
-    @Length(8, 8, { message: 'The length of the name must be exactly 5 characters.' })
+    @Length(7, 7, { message: 'The length of the name must be exactly 7 characters.' })
     name!: string;
 }
 
