@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+*.js
+*.js.map
+*.d.ts
+
+# Editor
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swn
+*.swo
+*.swp
+*.tmp
+*.tmp.*
+*.log
+*.ico
+*.dll
+*.pdb
+*.cache
+*.log
+*.db
+*.sqlite
+*.sqlite-journal
+
+# Jest
+coverage/
+
+# Dependency directories
+.jest/
+.pnp/
+.pnp.js
+
+# Yarn
+yarn-error.log
+.pnp.js
+.pnp.local
+
+# Debug files
+debug.log
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Distribution
+/dist/
