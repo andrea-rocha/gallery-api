@@ -1,7 +1,7 @@
 import app from './app';
 import { sequelize } from './database/database';
 import './models/gallery';
-import { swaggerDocs as V1SwaggerDocs } from './swagger';
+import { swaggerDocs as V1SwaggerDocs } from './documentation/swagger';
 import 'reflect-metadata';
 
 async function main() {
