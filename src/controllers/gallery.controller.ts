@@ -38,22 +38,6 @@ export async function getImages(req: Request, res: Response) {
     }
 }
 
-export async function getImageByName2( req: Request, res: Response){
-    try {
-        const { name } = req.params
-        const image = await Gallery.findOne({
-            where: {
-                name: name
-            }
-        });
-        if(!image) return res.status(404).json({ message: 'Image does not exist'});
-        res.json(image);
-   } catch (error) {
-        console.error('Error getting images:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-   } 
-}
-
 export async function getImageByName(req: Request, res: Response) {
     try {
         const { name } = req.params;
